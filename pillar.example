@@ -1,0 +1,12 @@
+users:
+  john:
+    fullname: John Doe
+    shell: /bin/bash
+    password: <secret-password-hash>
+    ssh_keys:
+      - <ssh-public-key-1>
+      - <ssh-public-key-2>
+
+groups:
+  sudo:
+    - john
